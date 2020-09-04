@@ -6,7 +6,7 @@
 - 利用 [NSIS](https://nsis.sourceforge.io/Main_Page) 可以把软件打包成安装包，可以自定义安装时的一系列动作。
 - 添加服务，可以使用`Simple Service Plugin`，参看：https://nsis.sourceforge.io/NSIS_Simple_Service_Plugin
 - 直接把普通程序注册成服务，是不能运行的：
-![title](https://leanote.com/api/file/getImage?fileId=5ca9c644ab64415d3c00365c)
+![title](https://i.loli.net/2019/04/10/5cadad290bc41.png)
 > 可以用`srvany.exe`来帮助我们的程序以服务方式运行。可以参考：https://www.cnblogs.com/codealone/p/3156943.html
 
 - NSIS中，遇到中文（注释也不例外）时可能会报`Bad text encoding`相关的错误，可以在运行`makensis.exe`编译脚本时使用`/INPUTCHARSET UTF8`参数。参考：https://github.com/evshiron/nwjs-builder-phoenix/issues/17
